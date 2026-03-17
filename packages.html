@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>ExploreWorld - Packages</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial;
+}
+
+body{
+background:#f4f4f4;
+}
+
+header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px;
+background:#266ea2;
+color:white;
+}
+
+nav a{
+color:white;
+margin-left:20px;
+text-decoration:none;
+font-weight:bold;
+}
+
+nav a:hover{
+text-decoration:underline;
+}
+
+
+.packages{
+padding:50px;
+text-align:center;
+}
+
+.packages h1{
+margin-bottom:40px;
+}
+
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+gap:25px;
+}
+
+.card{
+background:white;
+border-radius:10px;
+overflow:hidden;
+box-shadow:0 4px 10px rgba(0,0,0,0.2);
+padding-bottom:20px;
+transition:0.3s;
+}
+
+.card:hover{
+transform:scale(1.03);
+}
+
+.card img{
+width:100%;
+height:200px;
+object-fit:cover;
+}
+
+.card h3{
+padding:10px;
+color:#266ea2;
+}
+
+.itinerary{
+text-align:left;
+padding:15px;
+font-size:14px;
+}
+
+.itinerary p{
+margin-bottom:5px;
+}
+
+
+.btn{
+display:inline-block;
+margin-top:10px;
+padding:10px 20px;
+background:#266ea2;
+color:white;
+text-decoration:none;
+border-radius:5px;
+}
+
+.btn:hover{
+background:#1e4f7a;
+}
+
+
+footer{
+text-align:center;
+padding:20px;
+background:#266ea2;
+color:white;
+margin-top:30px;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+
+<h2>ExploreWorld</h2>
+
+<nav>
+<a href="home.html">Home</a>
+<a href="gallery.html">Gallery</a>
+<a href="contact.html">Contact</a>
+</nav>
+
+</header>
+
+<section class="packages">
+
+<h1>Travel Packages</h1>
+
+<div class="grid">
+
+
+<div class="card">
+<img src="img/paris1.jpg">
+<h3>Paris Package</h3>
+<div class="itinerary">
+<p><b>Day 1:</b> Eiffel Tower visit</p>
+<p><b>Day 2:</b> Louvre Museum</p>
+<p><b>Day 3:</b> Seine River Cruise</p>
+<p><b>Day 4:</b> Shopping</p>
+</div>
+<a href="paris.html" class="btn">View Details</a>
+</div>
+
+<div class="card">
+<img src="img/maldives1.jpg">
+<h3>Maldives Package</h3>
+<div class="itinerary">
+<p><b>Day 1:</b> Resort check-in</p>
+<p><b>Day 2:</b> Snorkeling</p>
+<p><b>Day 3:</b> Island tour</p>
+<p><b>Day 4:</b> Sunset cruise</p>
+</div>
+<a href="maldives.html" class="btn">View Details</a>
+</div>
+
+
+<div class="card">
+<img src="img/switzerland1.jpg">
+<h3>Switzerland Package</h3>
+<div class="itinerary">
+<p><b>Day 1:</b> Zurich tour</p>
+<p><b>Day 2:</b> Mount Titlis</p>
+<p><b>Day 3:</b> Lucerne sightseeing</p>
+<p><b>Day 4:</b> Departure</p>
+</div>
+<a href="switzerland.html" class="btn">View Details</a>
+</div>
+
+
+<div class="card">
+<img src="img/bali1.jpg">
+<h3>Bali Package</h3>
+<div class="itinerary">
+<p><b>Day 1:</b> Temple visit</p>
+<p><b>Day 2:</b> Beach activities</p>
+<p><b>Day 3:</b> Ubud tour</p>
+<p><b>Day 4:</b> Cultural show</p>
+</div>
+<a href="bali.html" class="btn">View Details</a>
+</div>
+
+
+<div class="card">
+<img src="img/taj1.jpg">
+<h3>Taj Mahal Package</h3>
+<div class="itinerary">
+<p><b>Day 1:</b> Agra arrival</p>
+<p><b>Day 2:</b> Taj Mahal visit</p>
+<p><b>Day 3:</b> Agra Fort</p>
+</div>
+<a href="taj.html" class="btn">View Details</a>
+</div>
+
+
+<div class="card">
+<img src="img/dubai1.jpg">
+<h3>Dubai Package</h3>
+<div class="itinerary">
+<p><b>Day 1:</b> Burj Khalifa</p>
+<p><b>Day 2:</b> Desert Safari</p>
+<p><b>Day 3:</b> Dubai Mall</p>
+<p><b>Day 4:</b> Marina tour</p>
+</div>
+<a href="dubai.html" class="btn">View Details</a>
+</div>
+
+<div class="card">
+<img src="img/srilanka1.jpg">
+<h3>Sri Lanka Package</h3>
+<div class="itinerary">
+<p><b>Day 1:</b> Colombo city tour</p>
+<p><b>Day 2:</b> Kandy temple</p>
+<p><b>Day 3:</b> Sigiriya rock</p>
+<p><b>Day 4:</b> Beach visit</p>
+</div>
+<a href="srilanka.html" class="btn">View Details</a>
+</div>
+
+<div class="card">
+<img src="img/malasia1.jpg">
+<h3>Malaysia Package</h3>
+<div class="itinerary">
+<p><b>Day 1:</b> Kuala Lumpur tour</p>
+<p><b>Day 2:</b> Petronas Towers</p>
+<p><b>Day 3:</b> Langkawi island</p>
+<p><b>Day 4:</b> Shopping</p>
+</div>
+<a href="malasiya.html" class="btn">View Details</a>
+</div>
+
+<div class="card">
+<img src="img/london.jpeg">
+<h3>London Package</h3>
+<div class="itinerary">
+<p><b>Day 1:</b> Buckingham Palace</p>
+<p><b>Day 2:</b> London Eye</p>
+<p><b>Day 3:</b> Tower Bridge</p>
+<p><b>Day 4:</b> City shopping</p>
+</div>
+<a href="london.html" class="btn">View Details</a>
+</div>
+
+<div class="card">
+<img src="img/singapore1.jpg">
+<h3>Singapore Package</h3>
+<div class="itinerary">
+<p><b>Day 1:</b> Marina Bay Sands</p>
+<p><b>Day 2:</b> Sentosa Island</p>
+<p><b>Day 3:</b> Universal Studios</p>
+<p><b>Day 4:</b> Night safari</p>
+</div>
+<a href="singapore.html" class="btn">View Details</a>
+</div>
+
+<div class="card">
+<img src="img/newyork1.webp">
+<h3>New York Package</h3>
+<div class="itinerary">
+<p><b>Day 1:</b> Times Square</p>
+<p><b>Day 2:</b> Statue of Liberty</p>
+<p><b>Day 3:</b> Central Park</p>
+<p><b>Day 4:</b> City tour</p>
+</div>
+<a href="newyork.html" class="btn">View Details</a>
+</div>
+
+
+<div class="card">
+<img src="img/japan1.jpg">
+<h3>Japan Package</h3>
+<div class="itinerary">
+<p><b>Day 1:</b> Tokyo city tour</p>
+<p><b>Day 2:</b> Mount Fuji</p>
+<p><b>Day 3:</b> Kyoto temples</p>
+<p><b>Day 4:</b> Shopping</p>
+</div>
+<a href="japan.html" class="btn">View Details</a>
+</div>
+
+</div>
+
+</section>
+
+<footer>
+
+<p>© 2026 ExploreWorld Travel Website</p>
+
+</footer>
+
+</body>
+</html>

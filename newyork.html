@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>New York Package - ExploreWorld</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial;
+}
+
+body{
+background:#f4f4f4;
+}
+
+header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px;
+background:#266ea2;
+color:white;
+}
+
+nav a{
+color:white;
+margin-left:20px;
+text-decoration:none;
+font-weight:bold;
+}
+
+nav a:hover{
+text-decoration:underline;
+}
+
+.hero{
+height:60vh;
+background:url("img/newyork1.webp") center/cover no-repeat;
+display:flex;
+align-items:center;
+justify-content:center;
+color:white;
+font-size:50px;
+font-weight:bold;
+text-shadow:0 4px 10px black;
+}
+
+.content{
+padding:50px;
+max-width:1000px;
+margin:auto;
+text-align:center;
+}
+
+.content p{
+margin-top:20px;
+line-height:1.7;
+font-size:18px;
+}
+
+.package-box{
+margin-top:30px;
+background:white;
+padding:25px;
+border-radius:10px;
+box-shadow:0 4px 10px rgba(0,0,0,0.2);
+text-align:left;
+}
+
+.package-box h2{
+color:#266ea2;
+margin-bottom:15px;
+}
+
+.package-box ul{
+margin-left:20px;
+line-height:1.8;
+}
+
+.price{
+margin-top:20px;
+font-size:22px;
+font-weight:bold;
+color:#e63946;
+}
+
+.gallery{
+margin-top:40px;
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+.gallery img{
+width:100%;
+height:200px;
+object-fit:cover;
+border-radius:10px;
+transition:0.3s;
+}
+
+.gallery img:hover{
+transform:scale(1.05);
+}
+
+.button{
+margin-top:30px;
+display:inline-block;
+padding:12px 25px;
+background:#266ea2;
+color:white;
+text-decoration:none;
+border-radius:5px;
+font-weight:bold;
+margin-right:10px;
+}
+
+footer{
+text-align:center;
+padding:20px;
+background:#266ea2;
+color:white;
+margin-top:30px;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+
+<h2>ExploreWorld</h2>
+
+<nav>
+<a href="home.html">Home</a>
+<a href="gallery.html">Gallery</a>
+<a href="packages.html">Packages</a>
+<a href="contact.html">Contact</a>
+</nav>
+
+</header>
+
+<div class="hero">
+New York Package
+</div>
+
+<section class="content">
+
+<h1>Discover New York City</h1>
+
+<p>
+New York City is one of the most famous cities in the world and is
+known as "The City That Never Sleeps". It is famous for its
+skyscrapers, entertainment, shopping, and cultural diversity.
+Millions of tourists visit New York every year.
+</p>
+
+<div class="package-box">
+
+<h2>5 Days New York Tour Itinerary</h2>
+
+<ul>
+<li><b>Day 1:</b> Arrival in New York and Times Square night tour.</li>
+<li><b>Day 2:</b> Visit Statue of Liberty and Ellis Island.</li>
+<li><b>Day 3:</b> Central Park walk and Empire State Building visit.</li>
+<li><b>Day 4:</b> Brooklyn Bridge tour and shopping in Manhattan.</li>
+<li><b>Day 5:</b> Museum visit and departure.</li>
+</ul>
+
+<h2>Package Includes</h2>
+
+<ul>
+<li>4 nights hotel accommodation</li>
+<li>Daily breakfast</li>
+<li>Guided New York city tour</li>
+<li>Airport transfers</li>
+<li>Local transportation</li>
+</ul>
+
+<div class="price">
+Package Price: ₹1,40,000 per person
+</div>
+
+</div>
+
+<div class="gallery">
+
+<img src="img/newyork1.webp">
+<img src="img/newyork2.jpg">
+<img src="img/newyork3.avif">
+<img src="img/newyork4.webp">
+<img src="img/newyork5.jpg">
+<img src="img/newyork6.jpg">
+
+</div>
+
+<a class="button" href="contact.html">Book Now</a>
+<a class="button" href="packages.html">Back to Packages</a>
+
+</section>
+
+<footer>
+
+<p>© 2026 ExploreWorld Travel Website</p>
+
+</footer>
+
+</body>
+</html>

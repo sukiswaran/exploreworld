@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>ExploreWorld - Gallery</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial;
+}
+
+body{
+background:#f4f4f4;
+}
+
+
+header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px;
+background:#266ea2;
+color:white;
+}
+
+nav a{
+color:white;
+margin-left:20px;
+text-decoration:none;
+font-weight:bold;
+}
+
+nav a:hover{
+text-decoration:underline;
+}
+
+
+
+.gallery{
+padding:50px;
+text-align:center;
+}
+
+.gallery h1{
+margin-bottom:30px;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+.card{
+background:white;
+border-radius:10px;
+overflow:hidden;
+box-shadow:0 4px 10px rgba(0,0,0,0.2);
+transition:0.3s;
+}
+
+.card:hover{
+transform:scale(1.05);
+}
+
+.card img{
+width:100%;
+height:200px;
+object-fit:cover;
+}
+
+.card h3{
+padding:10px;
+}
+
+
+
+footer{
+text-align:center;
+padding:20px;
+background:#266ea2;
+color:white;
+margin-top:30px;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+
+<h2>ExploreWorld</h2>
+
+<nav>
+<a href="home.html">Home</a>
+<a href="destinations.html">Destinations</a>
+<a href="gallery.html">Gallery</a>
+<a href="contact.html">Contact</a>
+</nav>
+
+</header>
+
+<section class="gallery">
+
+<h1>Our Tourist Spots</h1>
+
+<div class="grid">
+
+<div class="card">
+<a href="paris.html"><img src="img/paris1.jpg"></a>
+
+<h3>Paris</h3>
+</div>
+
+<div class="card"><a href="maldives.html"><img src="img/maldives1.jpg"></a>
+
+<h3>Maldives</h3>
+</div>
+
+<div class="card"><a href="switzerland.html"><img src="img/switzerland1.jpg"></a>
+
+<h3>Switzerland</h3>
+</div>
+
+<div class="card"><a href="bali.html"><img src="img/bali1.jpg"></a>
+
+<h3>Bali</h3>
+</div>
+
+<div class="card"><a href="taj.html"><img src="img/taj1.jpg"></a>
+<h3>Taj Mahal</h3>
+</div>
+
+<div class="card"><a href="srilanka.html"><img src="img/srilanka1.jpg" alt="Sri Lanka"></a>
+<h3>Sri Lanka</h3>
+</div>
+
+<div class="card"><a href="london.html"><img src="img/london.jpeg"></a>
+<h3>London</h3>
+</div>
+
+<div class="card"><a href="dubai.html"><img src="img/dubai1.jpg"></a>
+
+<h3>Dubai</h3>
+</div>
+
+<div class="card"><a href="singapore.html"><img src="img/singapore1.jpg"></a>
+<h3>Singapore</h3>
+</div>
+
+<div class="card"><a href="newyork.html"><img src="img/newyork1.webp"></a>
+<h3>New York</h3>
+</div>
+
+<div class="card"><a href="malasiya.html"><img src="img/malasia1.jpg"></a>
+<h3>Malaysia</h3>
+</div>
+
+<div class="card"><a href="japan.html"><img src="img/japan1.jpg"></a>
+<h3>Japan</h3>
+</div>
+
+</div>
+
+</section>
+
+<footer>
+
+<p>© 2026 ExploreWorld Travel Website</p>
+
+</footer>
+
+</body>
+</html>

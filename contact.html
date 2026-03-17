@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Contact & Booking - ExploreWorld</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial;
+}
+
+body{
+background:#f4f4f4;
+}
+
+header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px;
+background:#266ea2;
+color:white;
+}
+
+nav a{
+color:white;
+margin-left:20px;
+text-decoration:none;
+font-weight:bold;
+}
+
+nav a:hover{
+text-decoration:underline;
+}
+
+.hero{
+height:50vh;
+background:url("img/lg.png") center/cover no-repeat;
+display:flex;
+align-items:center;
+justify-content:center;
+color:white;
+font-size:40px;
+font-weight:bold;
+text-shadow:0 4px 10px black;
+}
+
+.contact{
+padding:60px;
+text-align:center;
+}
+
+.form-box{
+max-width:500px;
+margin:auto;
+background:white;
+padding:30px;
+border-radius:10px;
+box-shadow:0 4px 10px rgba(0,0,0,0.2);
+}
+
+.form-box input,
+.form-box select,
+.form-box textarea{
+width:100%;
+padding:12px;
+margin-top:10px;
+border:1px solid #ccc;
+border-radius:5px;
+}
+
+.buttons{
+display:flex;
+gap:10px;
+margin-top:15px;
+}
+
+.buttons button{
+flex:1;
+padding:12px;
+background:#266ea2;
+color:white;
+border:none;
+border-radius:5px;
+font-size:16px;
+cursor:pointer;
+transition:0.3s;
+}
+
+.buttons button:hover{
+background:#1a4d73;
+}
+
+footer{
+text-align:center;
+padding:20px;
+background:#266ea2;
+color:white;
+margin-top:40px;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+
+<h2>ExploreWorld</h2>
+
+<nav>
+<a href="home.html">Home</a>
+<a href="gallery.html">Gallery</a>
+<a href="packages.html">Packages</a>
+
+</nav>
+
+</header>
+
+<div class="hero">
+Book Your Trip
+</div>
+
+<section class="contact">
+
+<h2>Travel Booking Form</h2>
+
+<div class="form-box">
+
+<form>
+
+<input type="text" placeholder="Full Name" required>
+
+<input type="email" placeholder="Email Address" required>
+
+<input type="tel" placeholder="Phone Number" required>
+
+<select required>
+<option value="">Select Destination</option>
+<option>Maldives</option>
+<option>Paris</option>
+<option>Switzerland</option>
+<option>Bali</option>
+<option>Dubai</option>
+<option>London</option>
+<option>Singapore</option>
+<option>Japan</option>
+<option>New York</option>
+<option>Taj Mahal</option>
+<option>Sri Lanka</option>
+</select>
+
+<input type="date" required>
+
+<input type="number" placeholder="Number of Travelers" required>
+
+<textarea rows="4" placeholder="Additional Message"></textarea>
+
+<div class="buttons">
+<button type="submit">Submit Booking</button>
+<button type="reset">Clear Form</button>
+</div>
+
+</form>
+
+</div>
+
+</section>
+
+<footer>
+
+<p>© 2026 ExploreWorld Travel Website</p>
+
+</footer>
+
+</body>
+</html>
